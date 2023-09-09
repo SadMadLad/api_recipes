@@ -4,9 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "*"
 flask = "*"
 django = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+fastapi = {extras = ["all"], version = "*"}
 
 [dev-packages]
 
