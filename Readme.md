@@ -1,9 +1,5 @@
 # API Recipes
 
-This is a small yet ambitious project. It is to showcase how you can write APIs using different languages and frameworks.
-
-### Tasks
-
 Each API folder is going to have the following capabilities:
 
 * Store data of a user in an `sqlite3` database locally. Each API will connect with the same `sqlite3` table.
