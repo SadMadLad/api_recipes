@@ -8,6 +8,7 @@ flask = "*"
 django = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 fastapi = {extras = ["all"], version = "*"}
+djangorestframework = "*"
 
 [dev-packages]
 
